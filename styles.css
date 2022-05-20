@@ -58,7 +58,7 @@
   left: 25%;
   top: 10%;
   background-color: white;
-  border: 5px solid grey;
+  border: 5px solid black;
   border-radius: 10%;
   text-align: bottom;
   animation: signDistance;
@@ -76,16 +76,16 @@
 .welcome{
   position: absolute;
   font-size: 4.5rem;
-  height: 50%;
-  width: 80%;
-  left: 11%;
+  height: 55%;
+  width: 85%;
+  left: 9%;
   top: 35%;
 }
 .stick1{
   position: absolute;
   height: 50%;
   width: 3%;
-  background-color: black;
+  background-color: grey;
   left: 20%;
   top: 101%;
 }
@@ -93,7 +93,7 @@
   position: absolute;
   height: 50%;
   width: 3%;
-  background-color: black;
+  background-color: grey;
   left: 75%;
   top: 101%;
 }
@@ -101,8 +101,120 @@
   position: absolute;
   height: 35%;
   width: 65%;
-  background-color: grey;
+  background-color: burlywood;
   border-radius: 50%;
   top: 135%;
   left: 16%;
+}
+
+.slimyBody{
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: lightpink;
+  border: 2px solid black;
+}
+.eyeL{
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+  left: 20%;
+  top: 25%;
+}
+.eyeL::before{
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  background-color: white;
+  border-radius: 50%;
+  left: 50%;
+  top: 10%;
+}
+.eyeL::after{
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 4px;
+  background-color: white;
+  border-radius: 50%;
+  left: 10%;
+  top: 20%;
+}
+.eyeR{
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+  left: 60%;
+  top: 25%;
+}
+.eyeR::before{
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  background-color: white;
+  border-radius: 50%;
+  left: 50%;
+  top: 10%;
+}
+.eyeR::after{
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 4px;
+  background-color: white;
+  border-radius: 50%;
+  left: 10%;
+  top: 20%;
+}
+.cheek{
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  background-color: red;
+  border-radius: 50%;
+  left: 10%;
+  top: 48%;
+}
+.cheek::before{
+  content: "";
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  background-color: red;
+  border-radius: 50%;
+  left: 225%;
+}
+.smile{
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+  left: 40%;
+  top: 57%;
+}
+.smile::before{
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 3px;
+  background-color: white;
+  left: 25%;
+  border-top-left-radius: 50%;
+}
+.smile::after{
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 3px;
+  background-color: white;
+  left: 50%;
+  border-top-right-radius: 50%;
 }
