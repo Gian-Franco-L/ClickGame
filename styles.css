@@ -36,17 +36,19 @@
 }
 
 .introAnimation{
-  background-color: blue;
   animation: intro;
   animation-timing-function: ease-in;
-  animation-duration: 4s;
+  animation-duration: 10s;
 }
 @keyframes intro{
   0%{
     opacity: 0;
   }
-  100%{
+  40%{
     opacity: 1;
+  }
+  100%{
+    opacity: 0;
   }
 }
 .highwaySign{
@@ -58,7 +60,49 @@
   background-color: white;
   border: 5px solid grey;
   border-radius: 10%;
+  text-align: bottom;
+  animation: signDistance;
+  animation-timing-function: ease-in;
+  animation-duration: 4s;
 }
-.sticks{
-  
+@keyframes signDistance{
+  0%{
+    transform: scale(0.3);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.welcome{
+  position: absolute;
+  font-size: 4.5rem;
+  height: 50%;
+  width: 80%;
+  left: 11%;
+  top: 35%;
+}
+.stick1{
+  position: absolute;
+  height: 50%;
+  width: 3%;
+  background-color: black;
+  left: 20%;
+  top: 101%;
+}
+.stick2{
+  position: absolute;
+  height: 50%;
+  width: 3%;
+  background-color: black;
+  left: 75%;
+  top: 101%;
+}
+.signalBase{
+  position: absolute;
+  height: 35%;
+  width: 65%;
+  background-color: grey;
+  border-radius: 50%;
+  top: 135%;
+  left: 16%;
 }
