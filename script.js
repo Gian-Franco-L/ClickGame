@@ -1,9 +1,11 @@
 let mainPanel = document.querySelector(".mainPanel")
+let resetButton = document.querySelector(".resetButton")
 let x1 = document.querySelector("#x1")
 let x1x1 = document.querySelector("#x1-x1")
 let x1x2 = document.querySelector("#x1-x2")
 let x1x3 = document.querySelector("#x1-x3")
 let x1x4 = document.querySelector("#x1-x4")
+let introOut = 0
 
 // window.addEventListener("load", () =>{
 //   mainPanel.classList.add("introAnimation")
@@ -24,5 +26,11 @@ let x1x4 = document.querySelector("#x1-x4")
 //   }, 10000)
 //   setTimeout(()=>{
 //     x1.classList.add("slimyBody")
+//     introOut = 1
 //   }, 12000)
 // })
+
+if(introOut == 1)
+{
+  // resetButton.style.display = "inline"
+}

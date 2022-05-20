@@ -9,6 +9,7 @@
   height: 2vw;
 }
 .resetButton{
+  display: none;
   width: 150px;
   height: 37px;
   color: white;
@@ -114,6 +115,8 @@
   border-radius: 50%;
   background-color: lightpink;
   border: 2px solid black;
+  top: 45%;
+  left: 50%;
 }
 .eyeL{
   position: absolute;
@@ -189,7 +192,7 @@
   width: 18px;
   background-color: red;
   border-radius: 50%;
-  left: 225%;
+  left: 228%;
 }
 .smile{
   position: absolute;
@@ -218,3 +221,50 @@
   left: 50%;
   border-top-right-radius: 50%;
 }
+
+.boxText{
+  position: absolute;
+  height: 35%;
+  width: 30%;
+  top: 15%;
+  left: 51%;
+}
+.bubbleText{
+  position: absolute;
+  height: 70%;
+  width: 80%;
+  border: 3px solid black;
+  border-radius: 30%;
+  top: 10%;
+  left: 10%;
+}
+.bubblesBubble{
+  position: absolute;
+  width: 3%;
+  height: 5%;
+  border: 3px solid black;
+  border-radius: 50%;
+  top: 75%;
+  left: 12%;
+}
+.bubblesBubble::before{
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  border: 3px solid black;
+  border-radius: 50%;
+  top: 110%;
+  right: 90%;
+}
+.bubblesBubble::after{
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  border: 3px solid black;
+  border-radius: 50%;
+  top: 200%;
+  right: 165%;
+}
+
